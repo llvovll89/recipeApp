@@ -1,0 +1,27 @@
+@media (min-width: 600px){
+    .search-box {
+        width: 540px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 768px){
+    #food {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+    .food-item {
+        margin: 0;
+    }
+    .food-details {
+        width: 700px;
+    }
+}
+
+@media (min-width: 992px){
+    #food{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

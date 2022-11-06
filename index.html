@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>레시피App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="search">
+                <h2 class="title">
+                    레시피 App
+                </h2>
+                <div class="search-box">
+                    <input type="text" class="search-content" id="search-input" placeholder="영어로 재료검색!">
+                    <button class="search-btn btn" type="submit" id="search-btn"><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+
+            <div class="result-box">
+                <div id="food">
+                </div>
+            </div>
+
+            <div class="food-details">
+                <button type="button" class="close-btn btn" id="close-btn">
+                    <i class="fas fa-times"></i>
+                </button>
+
+                <div class="food-content">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
